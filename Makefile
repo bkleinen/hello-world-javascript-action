@@ -4,7 +4,7 @@
 build:
 - ncc build index.js --license LICENSE.TXT
 
-tag=v1.2
+tag=v1.3
 new-realease:
-- git tag -a -m "My first action release" $tag
+- git tag -a -m "My first action release" ${tag}
 - git push --follow-tags
