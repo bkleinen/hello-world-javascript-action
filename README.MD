@@ -10,6 +10,20 @@ git tag -a -m "My first action release" v1.1
 git push --follow-tags
 ```
 
+### instead of checking in node_modules
+
+
+https://github.com/vercel/ncc
+
+```bash
+npm i -g @vercel/ncc
+ncc build index.js --license licenses.txt
+```
+
+
+
+
+
 Template from tutorial: 
 # Hello world javascript action
 
